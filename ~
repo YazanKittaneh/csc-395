@@ -1,0 +1,9 @@
+Introduction to haskel
+
+Haskel is a functional programing language
+	thinking about programs as transformation on data
+
+Statically typed: all type errors will be caught at runtime
+	* at the same time, you don't have to explicitly say what variable is what (type interface)
+
+
