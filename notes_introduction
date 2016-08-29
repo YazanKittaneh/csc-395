@@ -6,4 +6,15 @@ Haskel is a functional programing language
 Statically typed: all type errors will be caught at runtime
 	* at the same time, you don't have to explicitly say what variable is what (type interface)
 
+infix functions: functions such as "+" or "*" that take in parameters by sandwitching them 
+
+prefix functions: functions that take parameters after they are called
+	(ie succ 8 = 9)
+
+	* they have the highest precidence in functions
+	  i.e: succ 8  is equivilent to (succ 8)
+
+	** we can make a prefix function a infix function by surrounding it with 'func'
+	  i.e: div 3 8   ->   3 'div' 8
+
 
