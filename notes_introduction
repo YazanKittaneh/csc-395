@@ -17,4 +17,8 @@ prefix functions: functions that take parameters after they are called
 	** we can make a prefix function a infix function by surrounding it with 'func'
 	  i.e: div 3 8   ->   3 'div' 8
 
-
+if statements:
+	* else statement is mandatory
+	* an expression because it always returns something
+	
+We usually use ' to either denote a strict version of a function (one that isn't lazy) or a slightly modified version of a function or a variable. Because ' is a valid character in functions, we can make a function like this.
