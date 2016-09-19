@@ -21,4 +21,19 @@ if statements:
 	* else statement is mandatory
 	* an expression because it always returns something
 	
-We usually use ' to either denote a strict version of a function (one that isn't lazy) or a slightly modified version of a function or a variable. Because ' is a valid character in functions, we can make a function like this.
+We usually use ' to either denote a strict version of a function (one that isn't lazy) or a slightly modified version of a function or a variable. Because ' is a valid character in functions, we can make a function like this. 
+
+
+9.7.16
+
+Syntax in functions
+* Patern Matching
+	You can define seperate function parts for differnt pattern. I.e:
+	
+	lucky :: (Integral a) => a -> String  
+	lucky 7 = "LUCKY NUMBER SEVEN!"  
+	lucky x = "Sorry, you're out of luck, pal!"
+
+	basically you can catch different parts of the argument and apply specific parts of code onto them. 
+	
+	 
